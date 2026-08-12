@@ -1,0 +1,25 @@
+{
+  "$comentario": "Manifiesto de codigo legado. Copiar a .claude/legacy-map.json en la raiz del proyecto. Fuente de verdad de la norma Don't Touch the Monolith.",
+  "version": 1,
+  "politica": {
+    "al_escribir": "ask"
+  },
+  "legado": [
+    {
+      "id": "core-loyalty",
+      "tipo": "monolito",
+      "rutas": [
+        "c:/Proyectos/legacy/Core/**"
+      ],
+      "contratos": [
+        "https://core.interno/swagger/v1/swagger.json"
+      ],
+      "acceso": [
+        "codigo",
+        "bd",
+        "docs"
+      ],
+      "nota": "Core en operacion. Solo se toca para corregir errores en produccion o terminar proyectos en curso."
+    }
+  ]
+}

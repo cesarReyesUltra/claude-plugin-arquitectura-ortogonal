@@ -1,0 +1,18 @@
+{
+  "description": "Guardia de legado — avisa antes de escribir sobre codigo declarado como legado en .claude/legacy-map.json",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/guardia-legado.mjs\"",
+            "timeout": 10,
+            "statusMessage": "Verificando norma Don't Touch the Monolith..."
+          }
+        ]
+      }
+    ]
+  }
+}

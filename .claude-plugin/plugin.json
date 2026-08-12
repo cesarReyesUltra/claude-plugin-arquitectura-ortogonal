@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "arquitectura-ortogonal",
+  "version": "0.1.0",
+  "description": "Norma \"Don't Touch the Monolith\" y arquitectura ortogonal de Linex Loyalty: no se toca el codigo legado para construir lo nuevo. Ingenieria inversa read-only del legado, decision ortogonal explicita y guardia que avisa antes de escribir sobre sistemas en operacion.",
+  "author": {
+    "name": "Linex Loyalty"
+  },
+  "keywords": [
+    "arquitectura",
+    "legacy",
+    "monolito",
+    "ortogonal",
+    "ingenieria-inversa"
+  ]
+}

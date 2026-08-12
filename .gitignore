@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+
+# Config local de Claude Code — nunca versionar
+.claude/settings.local.json
+.claude/legacy-map.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporales
+*.log
+*.tmp
+*.bak
+*.original.md

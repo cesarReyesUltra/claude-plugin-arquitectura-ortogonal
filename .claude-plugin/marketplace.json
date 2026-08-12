@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "linex-arquitectura",
+  "description": "Marketplace interno de Linex Loyalty: normas de arquitectura para agentes.",
+  "owner": {
+    "name": "Linex Loyalty"
+  },
+  "plugins": [
+    {
+      "name": "arquitectura-ortogonal",
+      "description": "Don't Touch the Monolith + arquitectura ortogonal + ingenieria inversa de codigo legado.",
+      "source": "./",
+      "category": "architecture"
+    }
+  ]
+}
